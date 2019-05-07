@@ -1,0 +1,15 @@
+name: NDNHardcorePlugin
+main: com.ndn.bukkitplugin.ndnhardcoreplugin.NDNHardcorePlugin
+version: 1.0
+api-version: 1.14
+author: NDN Dev Group
+commands:
+   start:
+      description: Starts the round ops only
+      usage: /<command>
+   join:
+      description: joins a team
+      usage: /<command> [team number(1 or 2)]
+   setup:
+      description: sets up scoreboard (ops only)
+      usage: /<command> 
